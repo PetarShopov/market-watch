@@ -39,6 +39,8 @@ const NewsPage: NextPage = ({ company }: IProps) => {
             <StyledContainer>
                 <StyledHeader>{company.Name}</StyledHeader>
                 <StyledSubHeader>{company.Symbol}</StyledSubHeader>
+                <div><b>Industry:</b> {company.Industry}</div>
+                <div><b>Address:</b> {company.Address}</div>
                 <div>{company.Description}</div>
             </StyledContainer>
         </>
